@@ -1,0 +1,73 @@
+# Temporary
+*.log
+tmp/
+
+# Archive
+archive/
+
+# Private
+.pri/
+*-pri
+*_private
+
+
+# Editors
+
+## Vim template
+### Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+### Session
+Session.vim
+Session*.vim
+session*.vim
+
+### Temporary
+.netrwhist
+
+## VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+
+# Auto-generated tag files
+tags
+
+# Dump file
+*.stackdump
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS template
+## General
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Tmux
+tmux/plugins/*
+tmux/resurrect
+
+# Zsh
+.oh-my-zsh
+.private.zsh
+.zsh_history
+.zcompdump
+.zcompdump*
+.local.zsh
+
+# GH
+hosts.yml
